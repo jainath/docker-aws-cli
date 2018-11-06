@@ -11,4 +11,4 @@ RUN curl -fsSLO https://download.docker.com/linux/static/stable/x86_64/docker-${
   && rm -r docker docker.tgz
 
 RUN pip install awscli
-RUN make --version
+RUN apt-get install build-essential
